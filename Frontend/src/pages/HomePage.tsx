@@ -300,7 +300,7 @@ export default function HomePage() {
                 className="aspect-square rounded-[2rem] overflow-hidden shadow-xl"
               >
                 <img
-                  src={item.url}
+                  // src={item.url}
                   src={getMediaUrl(item.url)}
                   alt={item.title}
                   className="w-full h-full object-cover"

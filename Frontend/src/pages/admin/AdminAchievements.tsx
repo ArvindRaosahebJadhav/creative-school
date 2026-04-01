@@ -120,10 +120,7 @@ export default function AdminAchievements() {
           >
             <div className="aspect-video relative">
               <img
-                src={
-                  getMediaUrl(ach.imageUrl || ach.image_url) ||
-                  'https://picsum.photos/seed/award/400/200'
-                }
+                src={getMediaUrl(ach.image_url) || 'https://picsum.photos/seed/award/400/200'}
                 alt={ach.title}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

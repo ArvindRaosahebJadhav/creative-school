@@ -120,10 +120,7 @@ export default function AdminEvents() {
           >
             <div className="aspect-video relative">
               <img
-                src={
-                  getMediaUrl(event.imageUrl || event.image_url) ||
-                  'https://picsum.photos/seed/event/400/200'
-                }
+                src={getMediaUrl(event.image_url) || 'https://picsum.photos/seed/event/400/200'}
                 alt={event.title}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

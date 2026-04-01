@@ -127,10 +127,7 @@ export default function AdminTeachers() {
           >
             <div className="aspect-[4/5] relative">
               <img
-                src={
-                  getMediaUrl(teacher.imageUrl || teacher.image_url) ||
-                  'https://picsum.photos/seed/teacher/400/500'
-                }
+                src={getMediaUrl(teacher.image_url) || 'https://picsum.photos/seed/teacher/400/500'}
                 alt={teacher.name}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
