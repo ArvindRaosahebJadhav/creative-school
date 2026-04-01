@@ -19,7 +19,7 @@ export const getMediaUrl = (url?: string) => {
   // If already absolute, return as-is
   if (/^https?:\/\//i.test(url)) return url;
 
-  const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  const apiBase = import.meta.env.VITE_API_URL;
   const serverBase = apiBase.replace(/\/api\/?$/i, '');
 
   // If path starts with /uploads, prefix server base
