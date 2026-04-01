@@ -17,7 +17,7 @@ import {
 import { cn, formatDate } from '../lib/utils';
 import { logger } from '../lib/logger';
 import type { Announcement, Event, GalleryItem } from '../types';
-import boy from '../image/young-boy-with-pencil-educational-concept.jpg';
+import boy from '../image/boy.jpg';
 
 export default function HomePage() {
   const [announcements, setAnnouncements] = useState<Announcement[]>([]);
