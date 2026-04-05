@@ -3,6 +3,9 @@ import { logger } from '../lib/logger';
 
 const API_BASE = import.meta.env.VITE_API_URL || 'https://creative-school.onrender.com/api';
 
+// check brouser
+console.log("API URL:", API_BASE);
+
 const api = axios.create({
   baseURL: API_BASE,
   headers: {
