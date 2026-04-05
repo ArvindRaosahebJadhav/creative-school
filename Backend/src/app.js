@@ -28,7 +28,7 @@ const corsOptions = {
     'http://localhost:5173',
     'http://localhost:3000',
     'http://localhost:3001',
-    'https://creative-school4.vercel.app',
+    'https://creative-school4-fov7u7ebx-arvinds-projects-d66987bd.vercel.app/',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
